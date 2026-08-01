@@ -1,0 +1,6 @@
+SQL Query
+SELECT
+    Name,
+    Department
+FROM Employees
+WHERE Salary > 40000;
