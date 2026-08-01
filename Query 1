@@ -1,0 +1,19 @@
+Retrieve Employees with Salary Greater Than 40,000
+Problem Statement
+
+Write an SQL query to display the Name and Department of employees whose salary is greater than 40,000.
+Explanation
+SELECT Name, Department → Retrieves only the Name and Department columns.
+FROM Employees → Specifies the Employees table.
+WHERE Salary > 40000 → Filters employees whose salary is greater than 40,000.
+Example Input
+EmployeeID	Name	Department	Salary
+1	Amit	HR	35000
+2	Priya	IT	50000
+3	Rahul	Sales	42000
+4	Neha	IT	60000
+Expected Output
+Name	Department
+Priya	IT
+Rahul	Sales
+Neha	IT
