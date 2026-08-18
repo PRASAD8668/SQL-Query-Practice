@@ -1,0 +1,12 @@
+Query 3 (Easy)
+
+Using the same Employees table, write an SQL query to display:
+
+Name
+Salary
+
+for employees whose salary is between 35,000 and 50,000 (inclusive).
+----->
+SELECT Name, Salary
+FROM Employees
+WHERE Salary BETWEEN 35000 AND 50000;
