@@ -1,0 +1,9 @@
+Question 1
+Write an SQL query to display:
+Name
+Department
+Only for employees whose salary is greater than 40,000
+------->
+SELECT Name, Department
+FROM Employees
+WHERE Salary > 40000;
